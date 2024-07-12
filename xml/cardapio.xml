@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <prato id="1">
+        <nome>Pizza</nome>
+        <descricao>Pizza espanhola portuguesa</descricao>
+        <ingredientes>Bordas de queijo, calabresa, tomate, cebola e chedar</ingredientes>
+        <preco>35 Reais</preco>
+        <calorias>2000 Kcal</calorias>
+        <tempoPreparo>15 min</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Filet Mignon Grelhado</nome>
+        <descricao>Delicioso filet mignon grelhado ao ponto, acompanhado de molho especial.</descricao>
+        <ingredientes>Filet mignon, sal, pimenta, azeite, alho, manteiga, ervas finas</ingredientes>
+        <preco>35.90</preco>
+        <calorias>400 Kcal</calorias>
+        <tempo_preparo>20 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Spaghetti à Carbonara</nome>
+        <descricao>Massa spaghetti al dente com molho carbonara cremoso e bacon crocante.</descricao>
+        <ingredientes>Spaghetti, ovos, queijo parmesão, bacon, creme de leite, sal, pimenta</ingredientes>
+        <preco>22.50</preco>
+        <calorias>550</calorias>
+        <tempo_preparo>25 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Salmão ao Molho de Maracujá</nome>
+        <descricao>Salmão grelhado coberto com molho de maracujá, acompanhado de arroz branco e legumes salteados.</descricao>
+        <ingredientes>Salmão, maracujá, manteiga, açúcar, arroz, legumes variados, sal, pimenta</ingredientes>
+        <preco>29.90</preco>
+        <calorias>450</calorias>
+        <tempo_preparo>30 minutos</tempo_preparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Frango à Parmegiana</nome>
+        <descricao>Peito de frango empanado e frito, coberto com molho de tomate e queijo derretido, acompanhado de purê de batatas.</descricao>
+        <ingredientes>Peito de frango, farinha de trigo, ovos, queijo muçarela, molho de tomate, purê de batatas</ingredientes>
+        <preco>27.50</preco>
+        <calorias>600</calorias>
+        <tempo_preparo>40 minutos</tempo_preparo>
+    </prato>
+    
+    <prato id="5">
+        <nome>Tiramisu</nome>
+        <descricao>Clássica sobremesa italiana feita com camadas de biscoitos embebidos em café, creme de queijo mascarpone e cacau em pó.</descricao>
+        <ingredientes>Biscoitos tipo ladyfinger, café, queijo mascarpone, ovos, açúcar, cacau em pó</ingredientes>
+        <preco>15.00</preco>
+        <calorias>300</calorias>
+        <tempo_preparo>15 minutos</tempo_preparo>
+    </prato>
+</menu>
