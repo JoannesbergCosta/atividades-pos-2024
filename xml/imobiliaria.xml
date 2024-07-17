@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome, (email | telefone)+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+
+
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento 5 quartos, centro da cidade, com 1 banheiro </descricao>
+        <proprietario>
+            <nome>Ryan Andrade</nome>
+            <email>joao.souza@email.com</email>
+            <telefone>5849-5698</telefone>
+            <telefone>9984-8956</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Graças</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>584</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80m²</tamanho>
+            <numQuartos>7</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>300</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>Casa ampla com jardim</descricao>
+        <proprietario>
+            <nome>Maria das Graças</nome>
+            <telefone>8495-6321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>JardimMassai</bairro>
+            <cidade>Campina Grande</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>5</numBanheiros>
+        </caracteristicas>
+        <valor>4500000000000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>casa em um condominio fechado</descricao>
+        <proprietario>
+            <nome>Fernanda Lima</nome>
+            <email>fernanda.lima@email.com</email>
+            <telefone>8795-8541</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida 4</rua>
+            <bairro>Zona Sul</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>4567</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>689000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Studio moderno e aconchegante</descricao>
+        <proprietario>
+            <nome>Joannes</nome>
+            <telefone>4587-8971</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo do Potengi</cidade>
+            <numero>185</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>2070000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de campo com campo de futebol</descricao>
+        <proprietario>
+            <nome>Joedson Ryan</nome>
+            <email>ana.costa@email.com</email>
+            <telefone>5678-9012</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada da Lua</rua>
+            <bairro>Rural</bairro>
+            <cidade>Gramado</cidade>
+            
+        </endereco>
+        <caracteristicas>
+            <tamanho>350m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>1250000</valor>
+    </imovel>
+</imobiliaria>
