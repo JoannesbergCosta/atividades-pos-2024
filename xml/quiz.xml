@@ -1,0 +1,69 @@
+
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>QV(Questões Variadas)</disciplina>
+    <professor>
+      <nome>Prof. Berg</nome>
+      <matrícula>458962</matrícula>
+    </professor>
+
+    <turma>Info1V</turma>
+
+    <data>2021-09-24</data>
+    <questões>
+      <questão>
+        <enunciado>Quantas copas tem o jogador de futebol Pele?</enunciado>
+        <pontuação>7 pontos</pontuação>
+        <alternativas>
+          <alternativa correta="sim">3</alternativa>
+          <alternativa correta="nao">2</alternativa>
+          <alternativa correta="nao">1</alternativa>
+        </alternativas>
+      </questão>
+      <questão>
+        <enunciado>Qual é o animal que mia?</enunciado>
+        <pontuação>3 pontos</pontuação>
+        <alternativas>
+          <alternativa correta="sim">Gato</alternativa>
+          <alternativa correta="nao">Cachorro</alternativa>
+          <alternativa correta="nao">pato</alternativa>
+        </alternativas>
+      </questão>
+        <questão>
+          <enunciado>Qual é a forma da bola?</enunciado>
+          <pontuação>7 pontos</pontuação>
+          <alternativas>
+            <alternativa correta="sim">Redonda</alternativa>
+            <alternativa correta="nao">Quadrada</alternativa>
+            <alternativa correta="nao">Triângulo</alternativa>
+          </alternativas>
+        </questão>
+        <questão>
+          <enunciado>Qual é o animal que late?</enunciado>
+          <pontuação>3 pontos</pontuação>
+          <alternativas>
+            <alternativa correta="sim">Cachorro</alternativa>
+            <alternativa correta="nao">Gato</alternativa>
+            <alternativa correta="nao">pato</alternativa>
+          </alternativas>
+        </questão>
+        <questão>
+          <enunciado>Qual é a data de aniversario do jogador Cristiano Ronaldo.</enunciado>
+          <pontuação>10 pontos</pontuação>
+          <alternativas>
+            <alternativa correta="sim">05/02/1985</alternativa>
+            <alternativa correta="nao">05/02/1800</alternativa>
+            <alternativa correta="nao">05/02/2005</alternativa>
+          </alternativas>
+        </questão>
+        <questão>
+          <enunciado>Quantas copas do mundo a seleção brasileira tem?</enunciado>
+          <pontuação>10 pontos</pontuação>
+          <alternativas>
+            <alternativa correta="sim">5</alternativa>
+            <alternativa correta="nao">2</alternativa>
+            <alternativa correta="nao">3</alternativa>
+          </alternativas>
+        </questão>
+      </questões>
+  </quiz>
