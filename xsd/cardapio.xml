@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+  <prato id="1">
+    <nome>Spaghetti à Carbonara</nome>
+    <descricao>Spaghetti com molho à base de ovos e queijo parmesão</descricao>
+    <ingredientes>
+      <ingrediente>Spaghetti</ingrediente>
+      <ingrediente>Ovos</ingrediente>
+      <ingrediente>Queijo parmesão</ingrediente>
+      <ingrediente>Presunto</ingrediente>
+    </ingredientes>
+    <preco>29.90</preco>
+    <calorias>800</calorias>
+    <tempoPreparo>30 minutos</tempoPreparo>
+  </prato>
+  <prato id="2">
+    <nome>Salada Caesar</nome>
+    <descricao>Salada com alface, croutons e molho Caesar</descricao>
+    <ingredientes>
+      <ingrediente>Alface</ingrediente>
+      <ingrediente>Croutons</ingrediente>
+      <ingrediente>Molho Caesar</ingrediente>
+    </ingredientes>
+    <preco>19.90</preco>
+    <calorias>400</calorias>
+    <tempoPreparo>15 minutos</tempoPreparo>
+  </prato>
+</cardapio>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://cardapio.org"
+        targetNamespace="http://cardapio.org"
+        elementFormDefault="qualified">
+
+
+    <element name="prato" type="string"></element>
+    <element name="nome" type="string"></element>
+    <element name="descricao" type="string"></element>
+    <element name="ingredientes" type="string"></element>
+    <element name="preco" type="decimal"></element>
+    <element name="calorias" type="integer"></element>
+
+
+
+    <element name="cardapio">
+        <complexType>
+            <sequence>
+                <element name="nome" maxOccurs="unbounded" >
+                    <simpleType>
+                        <restriction base="string">
+                            <maxLength value="100"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+
+
+                <element name="descricao">
+                    <simpleType>
+                        <restriction base="string">
+                        </restriction>
+                    </simpleType>
+                </element>
+
+
+                <element name="ingredientes">
+                    <complexType>
+                        <sequence>
+                            <element name="ingrediente" type="string" maxOccurs="unbounded"/>
+                        </sequence>
+                    </complexType>
+                </element>
+
+
+                <element name="preco">
+                    <simpleType>
+                        <restriction base="decimal">
+                            <fractionDigits value="2"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+
+                <element name="calorias">
+                    <simpleType>
+                        <restriction base="integer">
+                        </restriction>
+                    </simpleType>
+                </element>
+
+                <element name="tempoPreparo">
+                    <simpleType>
+                        <restriction base="string">
+                        </restriction>
+                    </simpleType>
+
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
