@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:schema xmlns:p="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <p:element name="quiz">
+        <p:complexType>
+            <p:sequence>
+                <p:element name="disciplina" type="p:string"/>
+                <p:element name="professor">
+                    <p:complexType>
+                        <p:sequence>
+                            <p:element name="nome" type="p:string"/>
+                            <p:element name="matricula" type="p:string" minOccurs="0"/>
+                        </p:sequence>
+                    </p:complexType>
+                </p:element>
+                <p:element name="turma" type="p:string"/>
+                <p:element name="data" type="p:string"/>
+                <p:element name="questoes">
+                    <p:complexType>
+                        <p:sequence>
+                            <p:element name="questao" maxOccurs="unbounded">
+                                <p:complexType>
+                                    <p:sequence>
+                                        <p:element name="enunciado" type="p:string"/>
+                                        <p:element name="pontuacao" type="p:string"/>
+                                        <p:element name="alternativas">
+                                            <p:complexType>
+                                                <p:sequence>
+                                                    <p:element name="alternativa" maxOccurs="unbounded">
+                                                        <p:complexType>
+                                                            <p:simpleContent>
+                                                                <p:extension base="p:string">
+                                                                    <p:attribute name="correta" use="required">
+                                                                        <p:simpleType>
+                                                                            <p:restriction base="p:string">
+                                                                                <p:enumeration value="sim"/>
+                                                                                <p:enumeration value="nao"/>
+                                                                            </p:restriction>
+                                                                        </p:simpleType>
+                                                                    </p:attribute>
+                                                                </p:extension>
+                                                            </p:simpleContent>
+                                                        </p:complexType>
+                                                    </p:element>
+                                                </p:sequence>
+                                            </p:complexType>
+                                        </p:element>
+                                    </p:sequence>
+                                </p:complexType>
+                            </p:element>
+                        </p:sequence>
+                    </p:complexType>
+                </p:element>
+            </p:sequence>
+            <p:attribute name="versao" use="required" type="p:string"/>
+        </p:complexType>
+    </p:element>
+</p:schema>

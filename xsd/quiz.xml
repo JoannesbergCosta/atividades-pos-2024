@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz versao="1.0">
+    <disciplina>Av</disciplina>
+    <professor>
+        <nome>Prof. Berg</nome>
+        <matricula>20211181110011</matricula>
+    </professor>
+    <turma>8A</turma>
+    <data>2024-07-31</data>
+    <questoes>
+        <questao>
+            <enunciado>Qual é a raiz quadrada de 36?</enunciado>
+            <pontuacao>50</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="nao">15</alternativa>
+                <alternativa correta="sim">6</alternativa>
+                <alternativa correta="nao">4</alternativa>
+            </alternativas>
+        </questao>
+        <questao>
+            <enunciado>Qual é a capital da França?</enunciado>
+            <pontuacao>10</pontuacao>
+            <alternativas>
+                <alternativa correta="nao">Londres</alternativa>
+                <alternativa correta="nao">São Paulo do Potengi</alternativa>
+                <alternativa correta="sim">Paris</alternativa>
+                <alternativa correta="nao">Santis Durmon</alternativa>
+            </alternativas>
+        </questao>
+    </questoes>
+</quiz>
