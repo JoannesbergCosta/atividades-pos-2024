@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="imobiliaria.xsd">
+    <imovel>
+        <descricao>Apartamento bronkile</descricao>
+        <proprietario>
+            <nome>Joannesberg</nome>
+            <email>joannesberg.silva@email.com</email>
+            <telefone>(84) 84594-4321</telefone>
+            <telefone>(84) 84995-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Santa Clara</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo do Potengi</cidade>
+            <numero>366</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>85.5</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 875.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de campo</descricao>
+        <proprietario>
+            <nome>Maria Jacinta Campo</nome>
+            <telefone>(84) 98765-8495</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Santos Dumont</rua>
+            <bairro>Santa Clara</bairro>
+            <cidade>São Pedro do Potengi</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>155.0</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 500.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Loja PeDireito</descricao>
+        <proprietario>
+            <nome>Carlos Albertp</nome>
+            <email>carlos.alba@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Coronel Freire</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo do Potengi</cidade>
+            <numero>185</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>50.00</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 350.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara DonRuan</descricao>
+        <proprietario>
+            <nome>Luzia Costa</nome>
+            <telefone>(84) 98723-4867</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Campo</rua>
+            <bairro>Rural</bairro>
+            <cidade>SPP</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>800.0</tamanho>
+            <numQuartos>7</numQuartos>
+            <numBanheiros>5</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 3.800.000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Flat</descricao>
+        <proprietario>
+            <nome>Fernanda Gonzales</nome>
+            <email>fernanda.gogo@email.com</email>
+            <telefone>(84) 98715-3838</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua dos Anjos</rua>
+            <bairro>Gargamel</bairro>
+            <cidade>Sitio Novo</cidade>
+            <numero></numero> 
+        </endereco>
+        <caracteristicas>
+            <tamanho>60.0</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 60.000</valor>
+    </imovel>
+
+</imobiliaria>

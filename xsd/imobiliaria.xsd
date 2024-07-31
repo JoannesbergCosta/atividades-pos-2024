@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:schema xmlns:p="http://www.w3.org/2001/XMLSchema"
+xmlns="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <p:element name="imobiliaria">
+        <p:complexType>
+            <p:sequence>
+                <p:element name="imovel" maxOccurs="unbounded">
+                    <p:complexType>
+                        <p:sequence>
+                            <p:element name="descricao" type="p:string"/>
+                            <p:element name="proprietario">
+                                <p:complexType>
+                                    <p:sequence>
+                                        <p:element name="nome" type="p:string"/>
+                                        <p:element name="email" type="p:string" minOccurs="0" maxOccurs="unbounded"/>
+                                        <p:element name="telefone" type="p:string" minOccurs="0" maxOccurs="unbounded"/>
+                                    </p:sequence>
+                                </p:complexType>
+                            </p:element>
+                            <p:element name="endereco">
+                                <p:complexType>
+                                    <p:sequence>
+                                        <p:element name="rua" type="p:string"/>
+                                        <p:element name="bairro" type="p:string"/>
+                                        <p:element name="cidade" type="p:string"/>
+                                        <p:element name="numero" type="p:string" minOccurs="0"/>
+                                    </p:sequence>
+                                </p:complexType>
+                            </p:element>
+                            <p:element name="caracteristicas">
+                                <p:complexType>
+                                    <p:sequence>
+                                        <p:element name="tamanho" type="p:decimal"/>
+                                        <p:element name="numQuartos" type="p:integer"/>
+                                        <p:element name="numBanheiros" type="p:integer"/>
+                                    </p:sequence>
+                                </p:complexType>
+                            </p:element>
+                            <p:element name="valor" type="p:string"/>
+                        </p:sequence>
+                    </p:complexType>
+                </p:element>
+            </p:sequence>
+        </p:complexType>
+    </p:element>
+</p:schema>
