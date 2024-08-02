@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <prato id="1">
+        <nome>Pizza calabresa</nome>
+        <descricao>Pizza de calabresa</descricao>
+        <ingredientes>
+            <ingrediente>cebola</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>portuguesa</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">35</preco>
+        <calorias>250</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+    <prato id="2">
+        <nome>Pizza</nome>
+        <descricao>Pizza portuguesa apimentada</descricao>
+        <ingredientes>
+            <ingrediente>pimentão</ingrediente>
+            <ingrediente>alho</ingrediente>
+            <ingrediente>pão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">40</preco>
+        <calorias>250</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+    <prato id="3">
+        <nome>Pizza mussarela</nome>
+        <descricao>Pizza de calabresa</descricao>
+        <ingredientes>
+            <ingrediente>cebola</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>portuguesa</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">35</preco>
+        <calorias>250</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+    <prato id="4">
+        <nome>Pizza limão</nome>
+        <descricao>Pizza de Limão com leite</descricao>
+        <ingredientes>
+            <ingrediente>leite</ingrediente>
+            <ingrediente>massa</ingrediente>
+            <ingrediente>limão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">10</preco>
+        <calorias>100</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+    <prato id="5">
+        <nome>Pizza de chocolate</nome>
+        <descricao>Pizza de chocolate amargo</descricao>
+        <ingredientes>
+            <ingrediente>cacau</ingrediente>
+            <ingrediente>granola</ingrediente>
+            <ingrediente>aditivos de choco</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">50</preco>
+        <calorias>650</calorias>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
+</cardapio>
