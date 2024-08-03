@@ -27,7 +27,7 @@
         <descricao>Apartamento 5 quartos, centro da cidade, com 1 banheiro </descricao>
         <proprietario>
             <nome>Ryan Andrade</nome>
-            <email>joao.souza@email.com</email>
+            <email>Ryan.and@email.com</email>
             <telefone>5849-5698</telefone>
             <telefone>9984-8956</telefone>
         </proprietario>
@@ -109,7 +109,7 @@
         <descricao>Casa de campo com campo de futebol</descricao>
         <proprietario>
             <nome>Joedson Ryan</nome>
-            <email>ana.costa@email.com</email>
+            <email>Joedson.Ryan@email.com</email>
             <telefone>5678-9012</telefone>
         </proprietario>
         <endereco>

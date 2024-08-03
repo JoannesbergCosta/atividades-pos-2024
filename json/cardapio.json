@@ -1,0 +1,64 @@
+{
+    "cardapio": [
+      {
+        "id": "a01",
+        "nome": "Pizza calabresa",
+        "descricao": "Pizza de calabresa",
+        "ingredientes": ["cebola", "Queijo", "portuguesa"],
+        "preco": {
+          "moeda": "BRL",
+          "valor": 35
+        },
+        "calorias": 250,
+        "tempoPreparo": "30 minutos"
+      },
+      {
+        "id": "a02",
+        "nome": "Pizza",
+        "descricao": "Pizza portuguesa apimentada",
+        "ingredientes": ["pimentão", "alho", "pão"],
+        "preco": {
+          "moeda": "BRL",
+          "valor": 40
+        },
+        "calorias": 250,
+        "tempoPreparo": "30 minutos"
+      },
+      {
+        "id": "a03",
+        "nome": "Pizza mussarela",
+        "descricao": "Pizza de calabresa",
+        "ingredientes": ["cebola", "Queijo", "portuguesa"],
+        "preco": {
+          "moeda": "BRL",
+          "valor": 35
+        },
+        "calorias": 250,
+        "tempoPreparo": "30 minutos"
+      },
+      {
+        "id": "a04",
+        "nome": "Pizza limão",
+        "descricao": "Pizza de Limão com leite",
+        "ingredientes": ["leite", "massa", "limão"],
+        "preco": {
+          "moeda": "BRL",
+          "valor": 10
+        },
+        "calorias": 100,
+        "tempoPreparo": "30 minutos"
+      },
+      {
+        "id": "a05",
+        "nome": "Pizza de chocolate",
+        "descricao": "Pizza de chocolate amargo",
+        "ingredientes": ["cacau", "granola", "aditivos de choco"],
+        "preco": {
+          "moeda": "BRL",
+          "valor": 50
+        },
+        "calorias": 650,
+        "tempoPreparo": "25 minutos"
+      }
+    ]
+  }
