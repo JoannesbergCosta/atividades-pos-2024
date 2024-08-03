@@ -1,0 +1,69 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "QV(Questões Variadas)",
+      "professor": {
+        "nome": "Prof. Berg",
+        "matrícula": 458962
+      },
+      "turma": "Info1V",
+      "data": "2021-09-24",
+      "questões": [
+        {
+          "enunciado": "Quantas copas tem o jogador de futebol Pele?",
+          "pontuação": "7 pontos",
+          "alternativas": [
+            { "texto": "3", "correta": "sim" },
+            { "texto": "2", "correta": "nao" },
+            { "texto": "1", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual é o animal que mia?",
+          "pontuação": "3 pontos",
+          "alternativas": [
+            { "texto": "Gato", "correta": "sim" },
+            { "texto": "Cachorro", "correta": "nao" },
+            { "texto": "pato", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual é a forma da bola?",
+          "pontuação": "7 pontos",
+          "alternativas": [
+            { "texto": "Redonda", "correta": "sim" },
+            { "texto": "Quadrada", "correta": "nao" },
+            { "texto": "Triângulo", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual é o animal que late?",
+          "pontuação": "3 pontos",
+          "alternativas": [
+            { "texto": "Cachorro", "correta": "sim" },
+            { "texto": "Gato", "correta": "nao" },
+            { "texto": "pato", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual é a data de aniversario do jogador Cristiano Ronaldo.",
+          "pontuação": "10 pontos",
+          "alternativas": [
+            { "texto": "05/02/1985", "correta": "sim" },
+            { "texto": "05/02/1800", "correta": "nao" },
+            { "texto": "05/02/2005", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Quantas copas do mundo a seleção brasileira tem?",
+          "pontuação": "10 pontos",
+          "alternativas": [
+            { "texto": "5", "correta": "sim" },
+            { "texto": "2", "correta": "nao" },
+            { "texto": "3", "correta": "nao" }
+          ]
+        }
+      ]
+    }
+  }
+  
