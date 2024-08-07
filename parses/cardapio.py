@@ -1,25 +1,26 @@
 from xml.dom.minidom import parse
-dom = parse("parses/cardapio.xml")
 
+# Carrega o arquivo XML
+dom = parse("parses/cardapio.xml")
 cardapio = dom.documentElement
 
-# Recebe uma lista dos elementos com tag "livro"
+# Obtém a lista de pratos
 pratos = cardapio.getElementsByTagName('prato')
 
-id_prato = 0
-# Acessa as informações de cada livro
-for prato in pratos:
-    id_prato+=1
-    nome = prato.getElementsByTagName('nome')[0]
-    ingredientes = prato.getElementsByTagName('ingredientes')[0]
-    print(f'{id_prato} - {nome}')
+# Exibe os pratos
+for i, prato in enumerate(pratos, 1):
+    nome = prato.getElementsByTagName('nome')[0].firstChild.nodeValue
+    print(f'{i} - {nome}')
 
-id_p = int(input("Digite o id do prato para saber mais: "))
-print("---\n")
+# Solicita o ID do prato ao usuário
+try:
+    id_p = int(input("Digite o ID do prato para saber mais: "))
+    prato = pratos[id_p - 1]
+    nome = prato.getElementsByTagName('nome')[0].firstChild.nodeValue
+    ingrediente = prato.getElementsByTagName('ingrediente')[0].firstChild.nodeValue
 
-prato = pratos[id_p-1]
-nome = prato.getElementsByTagName('nome')[0].firstChild.nodeValue
-ingredientes = prato.getElementsByTagName('ingredientes')[0].firstChild.nodeValue
-
-print(nome)
-print(ingredientes)
+    print("---\n")
+    print(f'Nome: {nome}')
+    print(f'Ingredientes: {ingrediente}')
+except (IndexError, ValueError):
+    print("ID inválido. Verifique o ID e tente novamente.")
