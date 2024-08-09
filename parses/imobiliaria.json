@@ -1,0 +1,82 @@
+{
+    "imobiliaria": [
+        {
+            "descricao": "Apartamento 5 quartos, centro da cidade, com 1 banheiro ",
+            "nome": "Ryan Andrade",
+            "email": [
+                "Ryan.and@email.com"
+            ],
+            "telefone": [
+                "5849-5698",
+                "9984-8956"
+            ],
+            "rua": "Rua das Graças",
+            "bairro": "Centro",
+            "cidade": "Rio de Janeiro",
+            "numero": "584",
+            "tamanho": "80m²",
+            "numQuartos": "7",
+            "numBanheiros": "4"
+        },
+        {
+            "descricao": "Casa ampla com jardim",
+            "nome": "Maria das Graças",
+            "telefone": [
+                "8495-6321"
+            ],
+            "rua": "Rua das Palmeiras",
+            "bairro": "JardimMassai",
+            "cidade": "Campina Grande",
+            "tamanho": "150m²",
+            "numQuartos": "3",
+            "numBanheiros": "5"
+        },
+        {
+            "descricao": "casa em um condominio fechado",
+            "nome": "Fernanda Lima",
+            "email": [
+                "fernanda.lima@email.com"
+            ],
+            "telefone": [
+                "8795-8541"
+            ],
+            "rua": "Avenida 4",
+            "bairro": "Zona Sul",
+            "cidade": "Rio de Janeiro",
+            "numero": "4567",
+            "tamanho": "150m²",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+        },
+        {
+            "descricao": "Studio moderno e aconchegante",
+            "nome": "Joannes",
+            "telefone": [
+                "4587-8971"
+            ],
+            "rua": "Rua do Comércio",
+            "bairro": "Centro",
+            "cidade": "São Paulo do Potengi",
+            "numero": "185",
+            "tamanho": "90m²",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+        },
+        {
+            "descricao": "Casa de campo com campo de futebol",
+            "nome": "Joedson Ryan",
+            "email": [
+                "Joedson.Ryan@email.com"
+            ],
+            "telefone": [
+                "5678-9012"
+            ],
+            "rua": "Estrada da Lua",
+            "bairro": "Rural",
+            "cidade": "Gramado",
+            "tamanho": "350m²",
+            "numQuartos": "5",
+            "numBanheiros": "4"
+        }
+    ]
+}
