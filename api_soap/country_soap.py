@@ -10,4 +10,4 @@ result = client.service.CapitalCity(
 sCountryISOCode=country_city
 )
 
-print(f"O código de telefone do {country_city} é {result}")
+print(f"A capital da {country_city} é {result}")
