@@ -11,3 +11,4 @@ sCountryISOCode=country_city
 )
 
 print(f"A capital da {country_city} é {result}")
+print(f"A capital da {country_city} é {result}")
