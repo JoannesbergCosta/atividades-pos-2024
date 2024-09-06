@@ -3,6 +3,7 @@ from getpass import getpass
 import json
 
 
+
 def autenticar(api_url):
     user = input("user: ")
     password = getpass()
