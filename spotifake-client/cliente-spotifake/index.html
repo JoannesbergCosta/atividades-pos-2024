@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotifake</title>
+</head>
+<body>
+  <h1>Spotifake</h1>
+
+  <h2>Artistas</h2>
+  <ul id="artistas"></ul>
+  <form id="artista-form">
+    <input type="text" name="nome" placeholder="Nome do Artista" required />
+    <input type="text" name="local" placeholder="Local" required />
+    <input type="number" name="ano_criacao" placeholder="Ano de Criação" required />
+    <button type="submit">Adicionar Artista</button>
+  </form>
+
+  <h2>Álbuns</h2>
+  <ul id="albuns"></ul>
+
+  <h2>Músicas</h2>
+  <ul id="musicas"></ul>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
